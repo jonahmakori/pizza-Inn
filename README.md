@@ -21,3 +21,4 @@
 - Project link:https://jonahmakori.github.io/pizza-Inn/
 
 ## Contact information.
+Email: jonahmakori0@gmail.com.
