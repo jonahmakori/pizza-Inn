@@ -11,3 +11,4 @@
 
 ## Technology Used
 - HTML-I used html for displaying the content.
+- CSS-We used css and bootstrap for styling the front-end of the website and making the landing page.
