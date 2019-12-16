@@ -24,14 +24,14 @@
             <div class="bar">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"><span class="var">Home</span> <span
+                        <a class="nav-link" href="#home"><span class="var">Home</span> <span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#varieties"><span class="var">Varieties</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html"><span class="var">Contact Us</span></a>
+                        <a class="nav-link" href="contact"><span class="var">Contact Us</span></a>
                     </li>
                 </ul>
             </div>
@@ -39,15 +39,15 @@
     </nav>
 
     <div class="container-fluid bodyy">
-        <div class="toppage">
+        <div class="toppage home" id="home">
             <div class="toptext">
                 <div class="h">
-                    <h1><b><span class="hh">WELCOME <br>TO <i>VINTAGE</i> PIZZA!</span></b></h1>
-                </div>
-                <div class="btn">
+                    <h1><b><span class="header">WELCOME <br>TO <i>VINTAGE</i> PIZZA!</span></b></h1>
+                </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div class="btn order">
                     <form action="#order">
                         <button class="button" type="submit"
-                            style="border-radius:50%; font-style: italic; width: 300px; height: 80px; background-color: yellowgreen; font-size: 30px">
+                            style="border-radius:20%; font-style: italic; width: 300px; height: 80px; background-color: rgb(3, 211, 238); font-size: 30px">
                             <b>ORDER NOW!</b>
                         </button>
                     </form>
@@ -55,68 +55,64 @@
             </div>
         </div>
 
-    <div class="container" style="background-color:black">
-        <h1 class="text" id="order" style="color: white;font-size:5rem; text-align: center"><b>Place Your Order Now</b>
-        </h1>
-        <div class="card table" style="width: 100%;">
-            <form>
-                <div class="form-group text-center">
-                    <select class="form-control" id="sel1" style="font-size:2rem; color:black;">
-                        <option value="" disabled selected hidden><b>Select Your Size </b></option>
-                        <option value="350">Small kshs 350</option>
-                        <option value="700">Medium kshs 700</option>
-                        <option value="1200">Large kshs 1200</option>
-                    </select>
-                </div>
-            </form>
+        <div class="container" style="background-color:black">
+            <h1 class="text" id="order" style="color: white;font-size:5rem; text-align: center"><b>Place Your Order
+                    Now</b>
+            </h1>
+            <div class="card table" style="width: 100%;">
+                <form>
+                    <div class="form-group text-center">
+                        <select class="form-control" id="size" style="font-size:2rem; color:black;">
+                            <option value="" disabled selected hidden><b>Select Your Size </b></option>
+                            <option value="350">Small kshs 350</option>
+                            <option value="700">Medium kshs 700</option>
+                            <option value="1200">Large kshs 1200</option>
+                        </select>
+                    </div>
+                </form>
 
-            <form>
-                <div class="form-group text-center">
-                    <select class="form-control" id="sel2" style="font-size:2rem; color:black;">
-                        <option value="" disabled selected hidden><b>Select Your Crust!</b>
-                        <option>
-                        <option value="200">Crispy kshs 200</option>
-                        <option value="100">Stuffed kshs 100</option>
-                        <option value="120"> Bagels kshs 120</option>
-                        <option value="120"> Gluten-free kshs 120</option>
-                    </select>
-                </div>
-            </form>
+                <form>
+                    <div class="form-group text-center">
+                        <select class="form-control" id="crust" style="font-size:2rem; color:black;">
+                            <option value="" disabled selected hidden><b>Select Your Crust!</b>
+                            <option>
+                            <option value="200">Crispy kshs 200</option>
+                            <option value="100">Stuffed kshs 100</option>
+                            <option value="120"> Gluten-free kshs 120</option>
+                        </select>
+                    </div>
+                </form>
 
-            <form action="/action_page.php">
-                <div class="form-group text-center">
-                    <select class="form-control" id="sel3" style="font-size:2rem; color:black;">
-                        <option value="" disabled selected hidden>Select Your Favorite Toppings</option>
-                        <option value="60">Pepperoni kshs 60</option>
-                        <option value="110">Mushrooms kshs 110</option>
-                        <option value="70">Black olives kshs 70</option>
-                        <option value="120">Green peppers kshs 120</option>
-                    </select>
+                <form action="/action_page.php">
+                    <div class="form-group text-center">
+                        <select class="form-control" id="toppings" style="font-size:2rem; color:black;">
+                            <option value="" disabled selected hidden>Select Your Favorite Toppings</option>
+                            <option value="145">Black olives kshs 145</option>
+                            <option value="165">Green peppers kshs 165</option>
+                            <option value="150">Pepperoni kshs 150</option>
+                            <option value="135">Mushrooms kshs 135</option>
+
+                        </select>
+                    </div>
+                    <div class="form-group text-center">
+                        <input type="number" style="font-size:2.5rem; color:black;" class="form-control" name="fname"
+                            id="number" placeholder="Number of pizza" min="1" required>
+                    </div>
+                </form>
+                <div class="button" style="font-size:3rem; color:black;">
+                    <button type="number" style="background-color:rgb(247, 4, 214); border-radius: 20%;"
+                        onclick="calculateTotal()">Order Delivery</button>
+                    <button type="number" style="background-color:rgb(255, 8, 0); border-radius: 20%;"
+                        onclick="calculate()">Pickup Station</button>
                 </div>
-                <div class="form-group text-center">
-                    <input type="number" style="font-size:2.5rem; color:black;" class="form-control" name="fname"
-                        id="number" placeholder="Number of pizza" min="1" required>
-                </div>
-            </form>
-            <div class="button" style="font-size:3rem; color:black;">
-                <button type="number" style="background-color:rgb(247, 4, 214); border-radius: 40%;"
-                    onclick="calculateTotal()">Order Delivery</button>
-                <button type="number" style="background-color:rgb(255, 8, 0); border-radius: 40%;"
-                    onclick="calculate()">Pickup Station</button>
             </div>
-        </div>
-    </div><br><br><br>
-
-    <div class="col-sm-7">
-        <div id="message">
-            <p></p>
-        </div>
-
+        </div><br><br><br>
     </div>
     <div class="footer" id="footer">
+        <h1><i>Contacts</i></h1>
         <p>&COPY;Jonah Makori</p>
     </div>
-</div>
+    </div>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
