@@ -9,3 +9,5 @@
 
 - launch the index.html file.
 
+## Technology Used
+- HTML-I used html for displaying the content.
