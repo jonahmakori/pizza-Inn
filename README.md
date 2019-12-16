@@ -13,3 +13,5 @@
 - HTML-I used html for displaying the content.
 - CSS-We used css and bootstrap for styling the front-end of the website and making the landing page.
 - JAVASCRIPT-We used javascript for dynamics.
+## BDD.
+- At the bottom of the homepage ,You will press the <b>PLACE ORDER button</b> yhe I t will direct you to the order fill out form.
