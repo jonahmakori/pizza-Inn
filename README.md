@@ -25,3 +25,4 @@ Email: jonahmakori0@gmail.com.
 Telephone: 0700222621.
 
 
+## License and Copyright information.
