@@ -30,3 +30,5 @@ Telephone: 0700222621.
 
 - MIT License Copyright (c) 2019 (Jonah Makori)
 
+## Author's Name
+Designed by Jonah Makori
