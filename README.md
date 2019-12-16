@@ -16,3 +16,7 @@
 ## BDD.
 - At the bottom of the homepage ,You will press the <b>PLACE ORDER button</b> yhe I t will direct you to the order fill out form.
 - At the favorites you can select the size, toppings and the crust and the checkout to get the total.
+## Deployment
+- Github link:https://github.com/jonahmakori/pizza-Inn
+- Project link:https://jonahmakori.github.io/pizza-Inn/
+
