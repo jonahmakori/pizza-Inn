@@ -15,3 +15,4 @@
 - JAVASCRIPT-We used javascript for dynamics.
 ## BDD.
 - At the bottom of the homepage ,You will press the <b>PLACE ORDER button</b> yhe I t will direct you to the order fill out form.
+- At the favorites you can select the size, toppings and the crust and the checkout to get the total.
