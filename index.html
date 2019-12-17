@@ -39,15 +39,15 @@
     </nav>
 
     <div class="container-fluid bodyy">
-        <div class="toppage home" id="home">
+        <div class="toppage home1" id="home">
             <div class="toptext">
                 <div class="h">
                     <h1><b><span class="header">WELCOME <br>TO <i>VINTAGE</i> PIZZA!</span></b></h1>
                 </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 <div class="btn order">
                     <form action="#order">
-                        <button class="button" type="submit"
-                            style="border-radius:20%; font-style: italic; width: 300px; height: 80px; background-color: rgb(16, 31, 248); font-size: 30px">
+                        <button class="button now" type="submit"
+                            style="border-radius:20%; font-style: italic; width: 300px; height: 80px; background-color: rgb(16, 31, 248); font-size: 30px; color: whitesmoke;">
                             <b>ORDER NOW!</b>
                         </button>
                     </form>
@@ -55,20 +55,58 @@
             </div>
         </div>
 
-<div class="varieties" id="varieties">
-<div class="crust">
+        <div class="varieties" id="varieties">
+            <div class="crust">
+                <h2 class="var"><b>Varieties</b></h2>
+                <h2 class="">Here are some of the best Pizza Crust</h2>
+                <div class="col-md-3">
+                    <img src="https://qph.fs.quoracdn.net/main-qimg-6461d792a44698a02da462c86b61379b.webp"
+                        height="300vh" width="300vh">
+                    <p class="p">a) Thin Crust</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="https://qph.fs.quoracdn.net/main-qimg-faa4b317830df11e3a79737ece6df4f9.webp"
+                        height="300vh" width="300vh">
+                    <p class="p">b) Thick Crust</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="https://qph.fs.quoracdn.net/main-qimg-a85753f1ea37a72c46094f5ed381ad3e.webp"
+                        height="300vh" width="300vh">
+                    <p class="p">c) Pan Crust </p>
+                </div>
+                <div class="col-md-3">
+                    <img src="https://qph.fs.quoracdn.net/main-qimg-df25d4ac3e554db5f71aebcb5a179c08.webp"
+                        height="300vh" width="300vh">
+                    <p class="p">d) Deep Crust </p>
+                </div>
+            </div>
+            <div class="toppings">
+                <h2>Here are some of Pepperoni.</h2>
+                <div class="col-md-3">
+                    <img src="css/images/pp1.jpeg" height="300vh" width="300vh">
+                    <a href="#order"><p class="p2">Order</p></a>
+                </div>
+                <div class="col-md-3">
+                    <img src="css/images/pp2.jpeg" height="300vh" width="300vh">
+                    <a href="#order"><p class="p2">Order</p></a>
+                </div>
+                <div class="col-md-3">
+                    <img src="css/images/pp3.jpeg" height="300vh" width="300vh">
+                    <a href="#order"><p class="p2">Order</p></a>
+                </div>
+                <div class="col-md-3">
+                    <img src="css/images/pp4.jpeg" height="300vh" width="300vh">
+                    <a href="#order"><p class="p2">Order</p></a>
+                </div>
 
-</div>
-<div class="toppings">
-
-</div>
-</div>
+            </div>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
 
-        <div class="container" style="background-color:black">
-            <h1 class="text" id="order" style="color: white;font-size:5rem; text-align: center"><b>Place Your Order
+        <div class="container" style="background-color:rgb(3, 27, 95)">
+            <h1 class="text" id="order" style="color: snow;font-size:5rem; text-align: center"><b>Place Your Order
                     Now</b>
             </h1>
             <div class="card table" style="width: 100%;">
@@ -85,7 +123,7 @@
 
                 <form>
                     <div class="form-group text-center">
-                        <select class="form-control" id="crust" style="font-size:2rem; color:black;">
+                        <select class="form-control" id="crust" style="font-size:2rem; color:rgb(117, 5, 84);">
                             <option value="" disabled selected hidden><b>Select Your Crust!</b>
                             <option>
                             <option value="200">Crispy kshs 200</option>
@@ -97,7 +135,7 @@
 
                 <form action="/action_page.php">
                     <div class="form-group text-center">
-                        <select class="form-control" id="toppings" style="font-size:2rem; color:black;">
+                        <select class="form-control" id="toppings" style="font-size:2rem; color:rgb(88, 2, 2);">
                             <option value="" disabled selected hidden>Select Your Favorite Toppings</option>
                             <option value="145">Black olives kshs 145</option>
                             <option value="165">Green peppers kshs 165</option>
@@ -107,11 +145,11 @@
                         </select>
                     </div>
                     <div class="form-group text-center">
-                        <input type="number" style="font-size:2.5rem; color:black;" class="form-control" name="fname"
+                        <input type="number" style="font-size:2.5rem; color:rgb(14, 117, 4);" class="form-control" name="fname"
                             id="number" placeholder="Number of pizza" min="1" required>
                     </div>
                 </form>
-                <div class="button" style="font-size:3rem; color:black;">
+                <div class="button" style="font-size:3rem; color:rgb(1, 110, 83);">
                     <button type="number" style="background-color:rgb(247, 4, 214); border-radius: 20%;"
                         onclick="calculateTotal()">Order Delivery</button>
                     <button type="number" style="background-color:rgb(255, 8, 0); border-radius: 20%;"
